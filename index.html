@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Расчет стоймости</title>
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+<body>
+	<h1 class="name">Расчет стоймости</h1>
+	<div class="all">
+		<div class="furniture">
+			<h4>Предмет мебели</h4>
+			<div class="sofa">
+				<img class="js-color" src="assets/img/sofa.svg">
+				<p>диван</p>
+				<input  type="checkbox" name="check">
+			</div>
+			<div class="armchair">
+				<img class="js-color" src="assets/img/armchair.svg">
+				<p>кресло</p>
+				<input type="checkbox" name="check">
+			</div>
+			<div class="matrass">
+				<img class="js-color" src="assets/img/matrass.svg">
+				<p>матрац</p>
+				<input  type="checkbox" name="check">
+			</div>
+			<div class="chair">
+				<img class="js-color"  src="assets/img/chair.svg">
+				<p>стул</p>
+				<input  type="checkbox" name="check">
+			</div>
+			<div class="carpet">
+				<img class="js-color" src="assets/img/carpet.svg">
+				<p>ковер</p>
+				<input type="checkbox" name="check">
+			</div>
+			<div class="pouf">
+				<img class="js-color" src="assets/img/pouf.svg">
+				<p>пуф, банкотка</p>
+				<input  type="checkbox" name="check">
+			</div>
+			<div class="kitchen">
+				<img class="js-color" src="assets/img/kitchen.svg">
+				<p>кухонный уголок</p>
+				<input  type="checkbox" name="check">
+			</div>
+		</div>
+		<div class="params">
+			<h4>Параметры</h4>
+			<div class="sofa-params">
+
+			<select>
+  				<option>2-местный</option>
+  				<option>3-местный</option>
+  				<option>4-местный</option>
+			</select>
+
+			</div>
+			
+			<div class="armchair-params">
+				<p>-</p>		
+			</div>
+
+			<div class="matrass-params">
+				<select>
+	  				<option>односпальный</option>
+	  				<option>двуспальный</option>
+				</select>
+			</div>
+			
+
+			<div class="chair-params">
+
+				<select>
+	  				<option>со спинкой</option>
+	  				<option>без спинки</option>
+				</select>				
+
+			</div>
+
+			<div class="carpet-params">
+
+				<select>
+	  				<option>короткий ворс</option>
+	  				<option>длинный ворс</option>
+	  				<option>безворсовый</option>
+				</select>
+			</div>
+
+			<div class="poof-params">
+				<p>-</p>		
+			</div>
+
+			<div class="kitchen-params">
+				<p>-</p>		
+			</div>
+		</div>
+		<div class="quantity">
+		<h4>Количество</h4>
+			<center><div class="number">
+				<span class="minus"><img src="assets/img/back.svg"></span>
+				<input type="text" value="1"/>
+				<span class="plus"><img src="assets/img/next.svg"></span>
+			</div>
+			<div class="number">
+				<span class="minus"><img src="assets/img/back.svg"></span>
+				<input type="text" value="1"/>
+				<span class="plus"><img src="assets/img/next.svg"></span>
+			</div>
+			<div class="number">
+				<span class="minus"><img src="assets/img/back.svg"></span>
+				<input type="text" value="1"/>
+				<span class="plus"><img src="assets/img/next.svg"></span>
+			</div>
+			<div class="number">
+				<span class="minus"><img src="assets/img/back.svg"></span>
+				<input type="text" value="1"/>
+				<span class="plus"><img src="assets/img/next.svg"></span>
+			</div>
+			<div class="number">
+				<span class="minus"><img src="assets/img/back.svg"></span>
+				<input type="text" value="1"/>
+				<span class="plus"><img src="assets/img/next.svg"></span>
+			</div>
+			<div class="number">
+				<span class="minus"><img src="assets/img/back.svg"></span>
+				<input type="text" value="1"/>
+				<span class="plus"><img src="assets/img/next.svg"></span>
+			</div>
+			<div class="number">
+				<span class="minus"><img src="assets/img/back.svg"></span>
+				<input type="text" value="1"/>
+				<span class="plus"><img src="assets/img/next.svg"></span>
+			</div></center>
+		</div>	
+		<div class="date-price">	
+			<h4>Дата и время уборки</h4>
+			<div class="south"> 
+				<div class="left">
+					<div class="first">
+						<div class="date">				
+							<div class="date-picker" id="datepicker">
+						</div>
+					<div class="time">
+						<div class="clock">
+							<input type="text" name="00">
+							<p>:</p>
+							<input type="text" name="00">
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="address">
+						<div class="background-adress">
+						<img src="assets/img/location.svg">
+						<p>Введите Ваш адресс</p>
+						
+						<input type="text" name="">
+						</div>
+					</div>
+					<div class="telephone">
+						<input type="text" name="">
+					</div>
+					<div class="e-mail">
+						<input type="text" name="">
+					</div>
+				</div>
+			</div>
+
+
+		
+
+
+			<div class="price">
+				<center><div class="flex">
+					<div class="basket">
+						<img src="assets/img/basket.jpg">
+						<p>стоимость</p>
+						<input class="value" type="" name="" value="0">
+					</div>
+					<div class="discount">
+						<img src="assets/img/price.jpg">
+						<p>ваша скидка</p>
+						<p class="discount-js">0%</p>					
+					</div>
+					<button class="order">заказать</button>
+				</div></center>
+			</div>
+		</div>	
+		
+	</div>
+
+
+
+			
+			
+		</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="assets/script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+body, h1, h2, h3, h4, a, p {
+	margin: 0;
+	font-family: "Trebuchet MS";
+}
+
+.all{
+	display: flex;
+	justify-content: center;
+
+}
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+h1{
+	margin-left: 230px;
+}
+.furniture{
+	background-color: #f4f0ef;
+	width: 209px;
+	padding-bottom: 30px;	
+	border-radius: 10px;
+	
+}
+.furniture h4, .params h4, .quantity h4, .date-price h4{
+	margin-bottom: 20px;
+	padding-top: 20px;
+	margin-left: 5px;
+}
+.furniture img{
+	width:40px;
+	height:40px;
+	margin-left: 10px;
+}
+.furniture p{
+	margin-left: 10px;
+}
+.furniture button{
+	background-color: #f4f0ef;
+	border: none;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content:flex-end;
+}
+.sofa, .armchair, .matrass, .chair, .carpet, .pouf, .kitchen{
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 30px;
+}
+
+.params{
+	border-radius: 10px;
+	margin-left:5px;
+ 	width: 150px;
+ 	background-color: #f4f0ef;
+}
+.params p{
+	font-size: 30px;
+}
+.quantity{
+	width: 100px;
+	margin-left:5px;
+	background-color: #f4f0ef;
+	border-radius: 10px;
+}
+
+.sofa-params, .matrass-params, .chair-params, .carpet-params, .armchair-params, .kitchen-params, .poof-params{
+	display: flex;
+	justify-content:center;
+	margin-bottom: 43px;
+}
+
+.number{
+	width: 65px;
+	height: 30px;
+	background-color:#fff;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.number:first-child {
+	margin-top: 30px;
+}
+
+
+
+.date-price, .price{
+	width: 350px;
+	height: 270px;
+	background-color: #f4f0ef;
+	margin-left:10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+}
+.price{
+	background-color:#18a765;
+
+}
+
+.all{
+	margin: 100px;
+	height: 550px;
+}
+
+.basket img, .discount img{
+	width: 35px;
+	height: 35px;
+	color: white;
+}
+.basket{
+
+	border-bottom: 2px dashed white;
+}
+.flex{
+	padding-top: 40px;
+}
+.basket, .discount{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 200px;
+	height: 90px;	
+	color: white;
+}
+
+.basket p, .discount p{
+	margin: 10px;
+	}
+
+.flex button{
+	width: 240px;
+	height: 40px;
+	border: none;
+	background-color: #fff;
+	font-size: 23px;
+}
+
+.date{
+	background-color:white;	
+	width: 180px;
+	height: 150px;
+	border-radius: 10px;
+}
+.date a {
+	color: #18a765;
+	text-decoration: none;
+	margin-right:1px;
+	font-size: 12px;	
+}
+
+.first{
+	background-color:  #f4f0ef;
+	height: 210px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.time{
+	width: 150px;
+	height:50px;
+	background-color: white;
+	display: flex;
+	justify-content: flex-start;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.number input{
+	width: 10px;
+	border: none;
+	margin: 0 14px 0 14px;
+	outline-color:#18a765;
+}
+.number span{
+	margin-top: 5px;
+}
+
+select{
+	height: 25px;
+	width: 120px;
+	color: #8f8f8f;
+	border:1px solid #8f8f8f;
+	border-radius: 2px;
+	outline: none;
+}
+
+.matrass-params:before, .sofa-params:before, .chair-params:before, .carpet-params:before{
+	content:"";
+	display: block;
+	width: 1px;
+	height: 24px;
+	background-color: #8f8f8f;
+	position: relative;
+	left: 100px;
+}
+.furniture input{
+	width: 16px;
+	height: 16px;
+}
+.time img{
+	width: 20px;
+	height: 20px;
+}
+.time p{
+	margin: 0 10px 0 10px;
+}
+.time{
+	display: flex;
+	align-items: center;
+}
+.clock{
+	display: flex;
+	justify-content: flex-start;
+}
+.clock input{
+	width:50px;
+	height: 25px;
+	outline-color:#18a765;
+}
+.south{
+	display: flex;
+	justify-content: center;
+}
+.right{
+	position: relative;
+	right: -190px;
+	bottom: 150px;	
+}
+.right input{
+	width: 150px;
+}
+ 
+.telephone{
+	margin-bottom: 20px;
+}
+.background-adress{
+	height: 120px;
+	width: 150px;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.background-adress img{
+	width: 25px;
+}
+.background-adress input{
+	height: 90px;
+	border: none;
+	outline-color:#18a765;
+}
+.background-adress{
+	color:#8f8f8f;
+	font-size: 12px; 
+}
+.telephone input{
+	outline-color:#18a765;
+}
+
+.name {
+	position: absolute;
+	top: 3%;
+	right: 900px;
+}
+
+.value {
+	text-decoration: none;
+	background-size: 20px;
+	width: 50px;
+}
