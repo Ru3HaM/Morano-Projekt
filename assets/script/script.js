@@ -14,13 +14,8 @@ $(document).ready(function() {
     $('.plus').click(function () {
         var $input = $(this).parent().find('input');
         $input.val(parseInt($input.val()) + 1);
+        if($input.val()> 9);
         $input.change();
         return false;
-    });
-    $('.js-furniture').click(function() {
-        var $input = $(this).parent().find('input');
-        $input.val(parseInt($input.val()) + 1);
-        $input.change();
-        return false;   
     });
 });
