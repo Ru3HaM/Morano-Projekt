@@ -92,7 +92,9 @@ $(document).ready(function() {
         if (priceFinal > 3000) {
             $('.discount-js').text('45%');
         };
+        $('.sofa-input').click(function(){
+        $('.js-price-final').html('');ы
+        });
     };
-
 });
 
